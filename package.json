@@ -1,0 +1,27 @@
+{
+  "name": "pathfindr",
+  "version": "1.0.0",
+  "description": "Advanced pathfinding library",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint src/**/*.ts",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test && npm run lint"
+  },
+  "keywords": ["pathfinding", "graph", "algorithms"],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.5.0",
+    "jest": "^27.0.0",
+    "@types/jest": "^27.0.0",
+    "ts-jest": "^27.0.0",
+    "eslint": "^8.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.0.0"
+  }
+}
