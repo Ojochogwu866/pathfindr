@@ -1,0 +1,11 @@
+src/
+tests/
+examples/
+docs/
+scripts/
+config/
+benchmarks/
+.jest/
+*.ts
+.git/
+.github/
