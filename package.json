@@ -20,7 +20,7 @@
 		"graph",
 		"algorithms"
 	],
-	"author": "Ojochogwu Dickson",
+	"author": "Ojochogwu",
 	"license": "MIT",
 	"devDependencies": {
 		"@eslint/js": "^9.19.0",
