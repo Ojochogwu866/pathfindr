@@ -1,6 +1,6 @@
 {
 	"name": "pathfindr",
-	"version": "1.1.5",
+	"version": "1.1.6",
 	"description": "Advanced pathfinding library",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
@@ -13,7 +13,7 @@
 		"format": "prettier --write \"*.{json,js,ts,mjs}\" \"src/**/*.ts\" \"tests/**/*.ts\" \"config/**/*.{js,json}\" \".github/**/*.yml\" \"benchmarks/**/*.ts\" \"examples/**/*.ts\" \"scripts/**/*.{js,ts}\"",
 		"format:check": "prettier --check \"*.{json,js,ts}\" \"src/**/*.ts\" \"tests/**/*.ts\" \"config/**/*.{js,json}\" \".github/**/*.yml\" \"benchmarks/**/*.ts\" \"examples/**/*.ts\" \"scripts/**/*.{js,ts}\"",
 		"prepare": "husky install",
-		"prepublishOnly": "npm test && npm run lint"
+		"prepublishOnly": "npm test && npm run lint && npm run build"
 	},
 	"keywords": [
 		"pathfinding",
@@ -47,5 +47,11 @@
 		"*.js": [
 			"prettier --write"
 		]
+	},
+	"files": [
+		"dist/**/*"
+	],
+	"publishConfig": {
+		"access": "public"
 	}
 }
