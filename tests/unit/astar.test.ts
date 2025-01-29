@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import { AStar } from '../../src/core/algorithms/astar';
 import { Graph } from '../../src/core/graph';
 import { PathfindingError } from '../../src/types';
