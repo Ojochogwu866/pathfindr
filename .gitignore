@@ -1,2 +1,8 @@
+# Ignore npde module
 node_modules
+
+# Ignore coverage folder
 coverage/
+
+# Ignore build output
+dist
