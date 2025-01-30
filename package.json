@@ -13,7 +13,7 @@
 		"format": "prettier --write \"*.{json,js,ts,mjs}\" \"src/**/*.ts\" \"tests/**/*.ts\" \"config/**/*.{js,json}\" \".github/**/*.yml\" \"benchmarks/**/*.ts\" \"examples/**/*.ts\" \"scripts/**/*.{js,ts}\"",
 		"format:check": "prettier --check \"*.{json,js,ts}\" \"src/**/*.ts\" \"tests/**/*.ts\" \"config/**/*.{js,json}\" \".github/**/*.yml\" \"benchmarks/**/*.ts\" \"examples/**/*.ts\" \"scripts/**/*.{js,ts}\"",
 		"prepare": "npm run build",
-  		"prepublishOnly": "npm test && npm run lint && npm run build"
+		"prepublishOnly": "npm test && npm run lint && npm run build"
 	},
 	"keywords": [
 		"pathfinding",
