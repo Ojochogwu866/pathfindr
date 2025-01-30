@@ -1,11 +1,27 @@
+# Source and config files
 src/
 tests/
+benchmarks/
 examples/
-docs/
 scripts/
 config/
-benchmarks/
-.jest/
-*.ts
-.git/
+docs/
 .github/
+
+# Config files
+.eslintrc.js
+eslint.config.js
+tsconfig.json
+jest.config.js
+.prettierrc
+.husky/
+.gitignore
+
+# Dev files
+*.log
+*.tgz
+coverage/
+.DS_Store
+.env
+.vscode/
+.idea/

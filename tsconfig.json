@@ -1,19 +1,21 @@
 {
-	"compilerOptions": {
-		"target": "es2018",
-		"module": "commonjs",
-		"lib": ["es2018"],
-		"strict": true,
-		"esModuleInterop": true,
-		"skipLibCheck": true,
-		"forceConsistentCasingInFileNames": true,
-		"outDir": "./dist",
-		"baseUrl": "./",
-		"paths": {
-			"@/*": ["./src/*"]
-		},
-		"types": ["jest", "node"]
-	},
-	"include": ["src/**/*", "tests/**/*"],
-	"exclude": ["node_modules", "dist"]
+    "compilerOptions": {
+        "target": "es2022",
+        "module": "commonjs",
+        "lib": ["es2022"],
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "baseUrl": "./",
+        "paths": {
+            "@/*": ["./src/*"]
+        },
+        "types": ["jest", "node"],
+        "declaration": true
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules", "dist", "tests", "benchmarks", "examples"]
 }

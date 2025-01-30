@@ -1,4 +1,4 @@
-# Pathfindr
+ÿþ# Pathfindr
 
 A high-performance TypeScript pathfinding library implementing multiple algorithms including Dijkstra and A\* (A-star).
 
@@ -6,7 +6,7 @@ A high-performance TypeScript pathfinding library implementing multiple algorith
 
 - Multiple pathfinding algorithms:
   - Dijkstra's Algorithm
-  - A\* (A-star) Algorithm
+  - A\* (A-starAlgorithm
 - Flexible graph representation
 - Type-safe with full TypeScript support
 - Comprehensive test coverage
@@ -54,7 +54,7 @@ The library supports custom configurations for pathfinding:
 ```typescript
 const options = {
 	maxIterations: 1000,
-	heuristic: (a: string, b: string) => {
+	heuristic: (a: string, b: string=> {
 		// Custom heuristic function for A*
 		return 0;
 	},
@@ -73,7 +73,7 @@ npm run benchmark
 
 ## Contributing
 
-We welcome contributions! Please see our [Contributing Guide](./docs/contributing.md) for details.
+We welcome contributions! Please see our [Contributing Guide](./docs/contributing.mdfor details.
 
 ## License
 

@@ -1,6 +1,6 @@
 {
 	"name": "pathfindr",
-	"version": "1.1.6",
+	"version": "1.0.0",
 	"description": "Advanced pathfinding library",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
@@ -12,8 +12,8 @@
 		"lint": "eslint \"src/**/*.ts\" \"tests/**/*.ts\" \"benchmarks/**/*.ts\" \"examples/**/*.ts\"",
 		"format": "prettier --write \"*.{json,js,ts,mjs}\" \"src/**/*.ts\" \"tests/**/*.ts\" \"config/**/*.{js,json}\" \".github/**/*.yml\" \"benchmarks/**/*.ts\" \"examples/**/*.ts\" \"scripts/**/*.{js,ts}\"",
 		"format:check": "prettier --check \"*.{json,js,ts}\" \"src/**/*.ts\" \"tests/**/*.ts\" \"config/**/*.{js,json}\" \".github/**/*.yml\" \"benchmarks/**/*.ts\" \"examples/**/*.ts\" \"scripts/**/*.{js,ts}\"",
-		"prepare": "husky install",
-		"prepublishOnly": "npm test && npm run lint && npm run build"
+		"prepare": "npm run build",
+  		"prepublishOnly": "npm test && npm run lint && npm run build"
 	},
 	"keywords": [
 		"pathfinding",
