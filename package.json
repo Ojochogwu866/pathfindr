@@ -1,6 +1,6 @@
 {
 	"name": "pathfindr",
-	"version": "1.0.6",
+	"version": "1.2.0",
 	"description": "Advanced pathfinding library",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
